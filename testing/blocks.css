@@ -1,0 +1,55 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+a {
+    position:fixed;
+    right:50%;
+    top:1em;
+    font-size:x-large;
+    background-color: darkgreen;
+    text-decoration: none;
+    color:white;
+    padding-inline:.25em;
+}
+
+/* Here is one of many  CSS rules you will need... */
+#one {
+    font-size:x-large;
+    position:fixed;
+    bottom: 1.5em;
+    right:1em;
+    width: 25%;
+    border: 6px solid blue;
+    padding: .3em;
+}
+
+#two {
+    font-size:x-large;
+    position:fixed;
+    top:1.5em;
+    right:1em;
+    width: 25%;
+    border: 6px solid green;
+    padding: .3em;
+}
+
+#three {
+    font-size:x-large;
+    position:fixed;
+    top:1.5em;
+    left:1em;
+    width: 25%;
+    border: 6px solid orange;
+    padding: .3em;
+}
+
+#four {
+    font-size:x-large;
+    position:fixed;
+    bottom:1.5em;
+    left:1em;
+    width: 25%;
+    border: 6px solid gold;
+    padding: .3em;
+}
