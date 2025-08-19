@@ -1,0 +1,38 @@
+#game-container {
+    background: #e3f2fd;
+    border-radius: 12px;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.07);
+    padding: 1.5rem;
+    max-width: 540px;
+    margin: 1.5rem auto;
+    text-align: center;
+}
+#game-canvas {
+    background: #b3e5fc;
+    border-radius: 8px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+    margin-bottom: 1rem;
+}
+#game-ui {
+    margin-top: 1rem;
+}
+#cast-btn {
+    background: #1976d2;
+    color: #fff;
+    border: none;
+    padding: 0.7rem 2rem;
+    font-size: 1.1rem;
+    border-radius: 30px;
+    cursor: pointer;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+    transition: background 0.2s;
+}
+#cast-btn:hover {
+    background: #388e3c;
+}
+#game-message {
+    display: block;
+    margin-top: 0.8rem;
+    font-size: 1.1rem;
+    color: #263238;
+}
